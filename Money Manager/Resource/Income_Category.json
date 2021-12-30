@@ -1,0 +1,52 @@
+
+    [
+        {
+            "parentCategory": {
+                "cid": "i_01",
+                "name": "Bonus"
+            },
+            "subCategories": []
+        },
+        {
+            "parentCategory": {
+                "cid": "i_02",
+                "name": "Borrow"
+            },
+            "subCategories": []
+        },
+        {
+            "parentCategory": {
+                "cid": "i_03",
+                "name": "Collecting debts"
+            },
+            "subCategories": []
+        },
+        {
+            "parentCategory": {
+                "cid": "i_04",
+                "name": "Interest"
+            },
+            "subCategories": []
+        },
+        {
+            "parentCategory": {
+                "cid": "i_05",
+                "name": "Other"
+            },
+            "subCategories": []
+        },
+        {
+            "parentCategory": {
+                "cid": "i_06",
+                "name": "Salary"
+            },
+            "subCategories": []
+        },
+        {
+            "parentCategory": {
+                "cid": "i_07",
+                "name": "Saving interest"
+            },
+            "subCategories": []
+        }
+    ]

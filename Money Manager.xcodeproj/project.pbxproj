@@ -22,6 +22,11 @@
 		3B871285277ACEA400100B5E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871284277ACEA400100B5E /* AddViewController.swift */; };
 		3B871287277ACEBB00100B5E /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871286277ACEBB00100B5E /* ReportViewController.swift */; };
 		3B871289277ACED400100B5E /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871288277ACED400100B5E /* OtherViewController.swift */; };
+		3B8B4186277D59FC00019A5E /* Expense_Category.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B4185277D59FC00019A5E /* Expense_Category.json */; };
+		3B8B4189277D5A6300019A5E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B4188277D5A6300019A5E /* CategoryItem.swift */; };
+		3B8B418B277D5CD100019A5E /* CategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B418A277D5CD100019A5E /* CategoryFilter.swift */; };
+		3B8B418D277D696700019A5E /* Income_Category.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B418C277D696700019A5E /* Income_Category.json */; };
+		3B8B418F277D6EB100019A5E /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B418E277D6EB100019A5E /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,11 @@
 		3B871284277ACEA400100B5E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		3B871286277ACEBB00100B5E /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		3B871288277ACED400100B5E /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		3B8B4185277D59FC00019A5E /* Expense_Category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Expense_Category.json; sourceTree = "<group>"; };
+		3B8B4188277D5A6300019A5E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		3B8B418A277D5CD100019A5E /* CategoryFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFilter.swift; sourceTree = "<group>"; };
+		3B8B418C277D696700019A5E /* Income_Category.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Income_Category.json; sourceTree = "<group>"; };
+		3B8B418E277D6EB100019A5E /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,7 @@
 		3B87125C2779B2DF00100B5E /* Money Manager */ = {
 			isa = PBXGroup;
 			children = (
+				3B8B4184277D59E500019A5E /* Resource */,
 				3B87125D2779B2DF00100B5E /* AppDelegate.swift */,
 				3B87125F2779B2DF00100B5E /* SceneDelegate.swift */,
 				3B871275277ABC8200100B5E /* Other */,
@@ -81,6 +92,7 @@
 				3B871273277ABC6700100B5E /* Add */,
 				3B871272277ABC5E00100B5E /* Account */,
 				3B871271277ABC4F00100B5E /* Home */,
+				3B8B4187277D5A2600019A5E /* Category */,
 				3B8712632779B2DF00100B5E /* Main.storyboard */,
 				3B8712662779B2E000100B5E /* Assets.xcassets */,
 				3B8712682779B2E000100B5E /* LaunchScreen.storyboard */,
@@ -132,6 +144,25 @@
 				3B871288277ACED400100B5E /* OtherViewController.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		3B8B4184277D59E500019A5E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3B8B4185277D59FC00019A5E /* Expense_Category.json */,
+				3B8B418C277D696700019A5E /* Income_Category.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3B8B4187277D5A2600019A5E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3B8B4188277D5A6300019A5E /* CategoryItem.swift */,
+				3B8B418A277D5CD100019A5E /* CategoryFilter.swift */,
+				3B8B418E277D6EB100019A5E /* test.json */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,12 +224,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B87126A2779B2E000100B5E /* LaunchScreen.storyboard in Resources */,
+				3B8B418D277D696700019A5E /* Income_Category.json in Resources */,
 				3B87127F277ABCEC00100B5E /* Other.storyboard in Resources */,
 				3B87127D277ABCDB00100B5E /* Report.storyboard in Resources */,
 				3B8712672779B2E000100B5E /* Assets.xcassets in Resources */,
 				3B871279277ABCAD00100B5E /* Account.storyboard in Resources */,
 				3B8712652779B2DF00100B5E /* Main.storyboard in Resources */,
+				3B8B4186277D59FC00019A5E /* Expense_Category.json in Resources */,
 				3B87127B277ABCBF00100B5E /* Add.storyboard in Resources */,
+				3B8B418F277D6EB100019A5E /* test.json in Resources */,
 				3B871277277ABCA100100B5E /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,10 +247,12 @@
 				3B871283277ACE9200100B5E /* AccountViewController.swift in Sources */,
 				3B871285277ACEA400100B5E /* AddViewController.swift in Sources */,
 				3B87125E2779B2DF00100B5E /* AppDelegate.swift in Sources */,
+				3B8B418B277D5CD100019A5E /* CategoryFilter.swift in Sources */,
 				3B8712602779B2DF00100B5E /* SceneDelegate.swift in Sources */,
 				3B871289277ACED400100B5E /* OtherViewController.swift in Sources */,
 				3B871281277ACE5500100B5E /* HomeViewController.swift in Sources */,
 				3B871287277ACEBB00100B5E /* ReportViewController.swift in Sources */,
+				3B8B4189277D5A6300019A5E /* CategoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

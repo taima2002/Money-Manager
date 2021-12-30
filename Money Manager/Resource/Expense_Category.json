@@ -1,0 +1,193 @@
+     [
+        {
+            "parentCategory": {
+                "cid": "E_01",
+                "name": "Food and Dining"
+            },
+            "subCategories": [
+                {
+                    "cid": "E_02",
+                    "name": "Bars & Coffee"
+                },
+                {
+                    "cid": "E_03",
+                    "name": "Breakfast"
+                },
+                {
+                    "cid": "E_04",
+                    "name": "Dinner"
+                },
+                {
+                    "cid": "E_05",
+                    "name": "Groceries"
+                },
+                {
+                    "cid": "E_06",
+                    "name": "Lunch"
+                },
+                {
+                    "cid": "E_07",
+                    "name": "Restaurant"
+                }
+            ]
+        },
+        {
+            "parentCategory": {
+                "cid": "E_08",
+                "name": "Gifts & Donations"
+            },
+            "subCategories": [
+                {
+                    "cid": "E_09",
+                    "name": "Charity"
+                },
+                {
+                    "cid": "E_10",
+                    "name": "Gifts"
+                }
+            ]
+        },
+        {
+            "parentCategory": {
+                "cid": "E_11",
+                "name": "Health & Fitness"
+            },
+            "subCategories": [
+                {
+                    "cid": "E_12",
+                    "name": "Doctor"
+                },
+                {
+                    "cid": "E_13",
+                    "name": "Health Insurance"
+                },
+                {
+                    "cid": "E_14",
+                    "name": "Pharmacy"
+                },
+                {
+                    "cid": "E_15",
+                    "name": "Sports"
+                }
+            ]
+        },
+        {
+            "parentCategory": {
+                "cid": "E_16",
+                "name": "Home"
+            },
+            "subCategories": [
+                {
+                    "cid": "E_17",
+                    "name": "Furnishing"
+                },
+                {
+                    "cid": "E_18",
+                    "name": "Home services"
+                },
+                {
+                    "cid": "E_19",
+                    "name": "Mortgage & Rent"
+                }
+            ]
+        },
+        {
+            "parentCategory": {
+                "cid": "E_20",
+                "name": "Kids"
+            },
+            "subCategories": [
+                {
+                    "cid": "E_21",
+                    "name": "Allowance"
+                },
+                {
+                    "cid": "E_22",
+                    "name": "Baby Supplies"
+                },
+                {
+                    "cid": "E_23",
+                    "name": "Babysitter & Daycare"
+                },
+                {
+                    "cid": "E_24",
+                    "name": "Toys"
+                },
+                {
+                    "cid": "E_25",
+                    "name": "Tuition"
+                }
+            ]
+        },
+        {
+            "parentCategory": {
+                "cid": "E_26",
+                "name": "Personal"
+            },
+            "subCategories": [
+                {
+                    "cid": "E_27",
+                    "name": "Education"
+                },
+                {
+                    "cid": "E_28",
+                    "name": "Hobbies"
+                },
+                {
+                    "cid": "E_29",
+                    "name": "Spa & Massage"
+                }
+            ]
+        },
+        {
+            "parentCategory": {
+                "cid": "E_30",
+                "name": "Utilities"
+            },
+            "subCategories": [
+                {
+                    "cid": "E_31",
+                    "name": "Cable TV"
+                },
+                {
+                    "cid": "E_32",
+                    "name": "Electricity"
+                },
+                {
+                    "cid": "E_33",
+                    "name": "Gas"
+                },
+                {
+                    "cid": "E_34",
+                    "name": "Home Phone"
+                },
+                {
+                    "cid": "E_35",
+                    "name": "Internet"
+                },
+                {
+                    "cid": "E_36",
+                    "name": "Mobile Phone"
+                },
+                {
+                    "cid": "E_37",
+                    "name": "Water"
+                }
+            ]
+        },
+        {
+            "parentCategory": {
+                "cid": "E_38",
+                "name": "Lend"
+            },
+            "subCategories": []
+        },
+        {
+            "parentCategory": {
+                "cid": "E_39",
+                "name": "Repayment"
+            },
+            "subCategories": []
+        }
+    ]
+
