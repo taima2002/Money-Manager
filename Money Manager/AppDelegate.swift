@@ -16,8 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         self.configureTabBarAppearance()
         self.configureNavigationBarAppearance()
-        CategoryFilter.getExpenseCategory()
-        CategoryFilter.getIncomeCategory()
+        CategoryManager.shared
         return true
     }
 

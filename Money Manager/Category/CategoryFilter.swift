@@ -8,7 +8,7 @@
 import Foundation
 struct CategoryFilter: Codable {
     var parentCategory: Category
-    var subCategories: [Category]
+    var subCategories: [Category] = []
     static func getExpenseCategory() -> [CategoryFilter] {
         if let filePath = Bundle.main.url(forResource: "Expense_Category", withExtension: "json") {
                 
